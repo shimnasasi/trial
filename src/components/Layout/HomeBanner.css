@@ -1,0 +1,177 @@
+.HomeBanner-container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/Banner/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+}
+.welcome {
+  font-weight: 300;
+  font-size: 1rem;
+  border: 0.5px solid var(--white);
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: var(--white);
+}
+.HomeBanner-container .headbnr {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+.bnrDetails {
+  display: flex;
+  text-align: left;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------------------------  */
+/* From Uiverse.io by Saad3092003 */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+  /* border: 1px solid; */
+  border-radius: 50px;
+  background-color: #0aaca479;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  /* box-shadow: 0 0 5px 1px white; */
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background-color: #04ac9b5c;
+  /* background: var(--white); */
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /* background: #fff; */
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+  /* box-shadow: 0 0 10px 2px white; */
+}
+
+button:hover .button-text {
+  transform: translate(-1.7rem, 0);
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(8.7rem, 0);
+}
+
+button:active .circle .icon.arrow {
+  transform: translate(9.5rem, 0);
+  transition: all 0.3s;
+}
+
+button:active .circle {
+  transform: scale(0.9);
+  transition: all 0.3s;
+  /* box-shadow: 0 0 5px 0.5px white; */
+}
+
+button:hover .button-text {
+  color: #fff;
+  border-radius: 50px;
+}
+
+button:active .button-text {
+  color: rgba(255, 255, 255, 0.459);
+}
+
+/* ----------------------------- */
+.detailpara {
+  width: 43%;
+  text-transform: capitalize;
+  /* transform: rotate(20deg); */
+}
+.potential {
+  background-color: #08908980;
+  margin-left: 10px;
+  color: #fff;
+  /* rotate: 30deg; */
+  transform: rotate(20deg);
+  padding: 0 5px;
+  /* color: #be23cf89; */
+}
+@media (max-width: 768px) {
+  .HomeBanner-container .headbnr {
+    font-size: 2.5rem;
+  }
+  .bnrDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+  .detailpara {
+    width: 100%;
+  }
+}

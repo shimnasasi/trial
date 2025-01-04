@@ -1,0 +1,110 @@
+.homeabout-container {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.homeabout-container .head {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.homeabout-container p {
+  width: 35%;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.homeaboutWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 30rem; */
+  /* border: 1px solid; */
+  /* animation: comeclose 1.5s forwards; */
+}
+
+.homeaboutWrapper-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 43%;
+  border-radius: 15px;
+  /* width: 50%; */
+  /* min-height: 50vh; */
+  /* background-color: red; */
+  gap: 1rem;
+  /* border: 1px solid; */
+  justify-content: center;
+  align-items: center;
+}
+.homeaboutimg {
+  /* width: 0%; */
+  width: 30rem;
+  border-radius: 15px;
+  /* border: 1px solid; */
+}
+.homeworkseries {
+  display: flex;
+  background: radial-gradient(#036762, #01423f);
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 5px;
+  width: 14rem;
+  height: 7.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #089089;
+}
+.homeworkseries:hover {
+  background: radial-gradient(#089089, #016258);
+  cursor: pointer;
+  transition-duration: 5s;
+}
+.HAicon {
+  font-size: 2rem;
+}
+.homeworkseries .parahabout {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #7ad4cc;
+}
+.homeworkseries:hover .parahabout {
+  color: var(--white);
+}
+.homeworkseries:hover .headhabout {
+  color: var(--white);
+}
+.headhabout {
+  color: #b3fff9;
+  font-size: 1.3rem;
+}
+@media (max-width: 768px) {
+  .homeabout-container p {
+    width: 90%;
+  }
+  .homeabout-container h1 {
+    font-size: 1.7rem;
+  }
+  .homeabout-container {
+    flex-direction: column;
+  }
+  .homeaboutWrapper {
+    flex-direction: column;
+  }
+  .homeaboutimg {
+    width: 90%;
+  }
+  .homeworkseries {
+    width: 16rem;
+    padding:1rem 0;
+  }
+  .homeaboutWrapper-main {
+    width: 90%;
+  }
+}

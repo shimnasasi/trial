@@ -1,0 +1,89 @@
+.Blog-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Blog-wrapper {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.blogLists {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.BlogCard {
+  /* border: 1px solid var(--CeladonSorbet); */
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #022f2d, #022120);
+  border: 1px solid #015c58;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.BlogCard:hover {
+  /* background: linear-gradient(to right, #022120, #022f2d); */
+}
+.BlogCard img {
+  width: 100%;
+  height: 12rem;
+  border-radius: 10px;
+  border: 1px solid #015c58;
+}
+.blogDetails {
+  width: 100%;
+}
+.BlogHead {
+  font-size: 1.3rem;
+  color: var(--CeladonSorbet);
+  font-weight: 600;
+  height: 5rem;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+.blogDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.BlogPara {
+  color: var(--Water-Wonder);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.blogbtnWrapper {
+  width: 100%;
+}
+.blogbtn {
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 50px;
+  border: 1px solid #015c58;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #022120;
+  /* background-color: #089089;#0aaca4 */
+  background: linear-gradient(to right, #379d94, #215d3c);
+}
+.blogbtn:hover {
+  color: var(--white);
+  background: linear-gradient(to right, #02403d, #00211f);
+}

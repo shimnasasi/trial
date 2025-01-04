@@ -1,0 +1,135 @@
+.BlogDeatiled-Container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #010005, #045854);
+  /* padding: 2rem 0; */
+}
+.BlogDeatiledWrappermain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.blogCardWrapperContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+.BlogDeatiledHeadWraper {
+  width: 100%;
+  min-height: 80vh;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.BlogDeatiledWrapper h1 {
+  font-size: 1.7rem;
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  /* flex-direction: ; */
+}
+.BlogDeatiledHeadWraper p {
+  width: 60%;
+  color: var(--Secondry);
+}
+.blogCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 75%;
+  padding: 1rem;
+  border: 1px solid var(--Teal);
+  border-radius: 15px;
+  /* background-color: white; */
+  background: linear-gradient(to bottom, #06716be2, #012f2d);
+}
+.blogCardWrapper img {
+  width: 40%;
+  height: 16rem;
+  border-radius: 10px;
+  border: 1px solid var(--Teal);
+}
+.blogContentHead {
+  font-size: 2rem;
+  font-weight: 500;
+  /* border: 1px solid; */
+  color: var(--Secondry);
+}
+
+.blogContentPara {
+  width: 90%;
+  color: var(--white);
+}
+.blogContentDetailsWrpper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  gap: 0.5rem;
+}
+.blogContentDetailsWrpper ul {
+  width: 80%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media (max-width: 768px) {
+  .blogCardWrapper img {
+    width: 90%;
+    height: 10rem;
+  }
+  .BlogDeatiledHeadWraper p {
+    width: 100%;
+  }
+  .blogCardWrapper {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    justify-content: center;
+  }
+  .blogContentDetailsWrpper {
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .blogContentHead {
+    font-size: 1.5rem;
+    width: 80%;
+    font-weight: 600;
+    text-align: center;
+  }
+  .blogContentPara {
+    font-size: 1.1rem;
+    width: 97%;
+    text-align: center;
+  }
+  .blogContentDetailsWrpper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.05rem;
+  }
+  .BlogDeatiledHeadWraper {
+    /* width: 100%; */
+    min-height: 100vh;
+  }
+}

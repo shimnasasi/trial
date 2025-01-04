@@ -1,0 +1,71 @@
+.ServiceList-container {
+  width: 100%;
+  min-height: 90vh;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+.ServiceList-container h1 {
+  color: var(--PoolGreen);
+  text-align: center;
+}
+.ServiceList-Details-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.ServiceList-card {
+  width: 18rem;
+  height: 17rem;
+  padding: 0.6rem;
+  gap: 0.5rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* justify-content: space-between; */
+  border: 1px solid #01524a;
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #032b29, #01524a);
+}
+.ServiceList-card:hover {
+  background: linear-gradient(to bottom, #04ac9c, #089089);
+}
+.serviceHead {
+  font-size: 1.35rem;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.serviceImg {
+  width: 16rem;
+  height: 11rem;
+  border-radius: 10px;
+}
+.servicePara {
+  color: #90d2cd;
+  font-size: 0.9rem;
+  /* border: 1px solid; */
+  height: 2rem;
+}
+@media (max-width: 768px) {
+  .ServiceList-card {
+    width: 16rem;
+    padding: 0.2rem;
+  }
+  .ServiceList-Details-wrapper {
+    gap: 2rem;
+  }
+  .serviceImg {
+    width: 15rem;
+    height: 11rem;
+  }
+}

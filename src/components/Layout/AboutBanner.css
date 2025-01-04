@@ -1,0 +1,117 @@
+.AboutBanner-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 3%;
+}
+.aboutimgwrapper {
+  /* width: 40%; */
+  /* border: 1px solid; */
+}
+.aboutBannerImg {
+  width: 23rem;
+  /* width: 70%; */
+  height: 22rem;
+  border-radius: 100%;
+  /* border-top-right-radius: 35%;
+  border-bottom-left-radius: 35%; */
+}
+.ramingIcon {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  font-size: 2.5rem;
+  color: #04ac9c;
+  animation: shining 2s infinite;
+}
+.ramingtopIcon {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 2.5rem;
+  color: #04ac9c;
+  animation: shining 3s infinite;
+}
+@keyframes shining {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.aboutBanner-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 1px solid; */
+  text-align: right;
+  width: 35%;
+  padding-right: 2rem;
+  border-right: 5px solid var(--CeladonSorbet);
+}
+.smallHeading {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.aboutHead {
+  font-size: 2.5rem;
+  /* width: 50%; */
+}
+.detailsAbout {
+  font-size: 1.3rem;
+  /* text-align: justify; */
+  font-weight: 300;
+  /* width: 85%; */
+  color: var(--CeladonSorbet);
+}
+.changestyle {
+  background-color: #08908980;
+  padding: 0 2px;
+}
+.aboutimgwrapper {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .AboutBanner-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.2rem 0;
+  }
+  .aboutBanner-wrapper {
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 0;
+    border: none;
+    text-align: center;
+  }
+  .aboutHead {
+    width: 97%;
+    font-size: 2rem;
+  }
+  .detailsAbout {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .aboutBannerImg {
+    width: 95%;
+    height: 15rem;
+  }
+}

@@ -1,3 +1,28 @@
-@tailwind base;
-@tailwind utilities;
-@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Exo 2", serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #010005, #045854);
+}
+:root {
+  --white: #fdfcfd;
+  --PoolGreen: #04ac9c;
+  --Water-Wonder: #7ad4cc;
+  --Teal: #0aaca4;
+  --YoungBamboo: #64bc8c;
+  --CeladonSorbet: #b4dcc4;
+  --GreenishBlue: #089089;
+  --Main: #00a99d;
+  --Secondry: #62b989;
+}
+a {
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

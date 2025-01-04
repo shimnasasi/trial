@@ -1,0 +1,155 @@
+.SingleService-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SingleService-container .PageTop {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleserviceName {
+  /* color: transparent;
+  -webkit-text-stroke: 1px #62b989;
+  font-size: 2.5rem; */
+  text-align: center;
+
+  background: linear-gradient(45deg, #04ac9c, #b4dcc4);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  animation: gradientAnimation 3s ease infinite;
+}
+.PageTop .servicesubText {
+  font-size: 1.3rem;
+  color: aliceblue;
+  text-align: center;
+}
+.SingleServiceDetailsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--CeladonSorbet);
+  gap: 5%;
+}
+.singleServiceImage {
+  width: 40%;
+  /* height: 90vh; */
+  border-radius: 15px;
+}
+.SingleServiceDetailsText {
+  font-size: 1.6rem;
+  width: 35%;
+  text-align: end;
+  border-right: 5px solid var(--Secondry);
+  padding-right: 1rem;
+  /* 
+  background: linear-gradient(45deg, #04ac9c, #a3d8bb);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: gradientAnimation 3s ease infinite; */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.moreServiceswrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  gap: 2rem;
+}
+.SingleServiceItems-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  /* padding: 5rem 0; */
+}
+.singleServiceList-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #023d37, #006861);
+}
+.singleServiceDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+}
+.singleServiceImg {
+  width: 45%;
+  border-radius: 10px;
+}
+.singleServiceHead {
+  font-size: 2rem;
+  color: var(--CeladonSorbet);
+}
+.singleServicePara {
+  color: var(--YoungBamboo);
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .singleServiceDetails {
+    align-items: center;
+    gap: 0.2rem;
+  }
+  .singleServiceHead {
+    font-size: 1.5rem;
+  }
+  .singleServiceImg {
+    width: 90%;
+  }
+  .singleServiceList-card {
+    flex-direction: column;
+    width: 98%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .PageTop .serviceName {
+    font-size: 2.1rem;
+  }
+  .singleServiceImage {
+    width: 97%;
+    height: 30vh;
+  }
+  .SingleServiceDetailsWrapper {
+    text-align: center;
+    flex-direction: column;
+  }
+  .SingleServiceDetailsText {
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+  }
+}

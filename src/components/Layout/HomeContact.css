@@ -1,0 +1,49 @@
+.HomeContact-container {
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.hcontact-wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: var(--white); */
+  /* background-color: #62b989; */
+  background: linear-gradient(to bottom, #06716be2, #012f2d);
+  padding: 2rem 0.5rem;
+border: 1px solid #0aaca4;
+  border-radius: 15px;
+}
+.contactHead {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* color: #043a37; */
+  color: white;
+}
+.hcontactDetails {
+  border-left: 5px solid #0aaca4;
+  padding-left: 15px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #b4dcc4;
+}
+@media (max-width: 768px) {
+  .hcontact-wrapper {
+    width: 90%;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .hcontactDetails {
+    border: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}

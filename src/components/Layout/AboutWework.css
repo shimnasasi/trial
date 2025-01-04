@@ -1,0 +1,67 @@
+.AboutWework-container {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+.AboutWework-container h1 {
+  text-align: center;
+  color: var(--CeladonSorbet);
+}
+.whitestyle {
+  color: var(--white);
+}
+.ourprocessDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  border: 1px solid #08908998;
+  width: 16rem;
+  height: 14rem;
+  /* padding: 5px; */
+  background: linear-gradient(to bottom,#013631,#03302e);
+  border-radius: 15px;
+}
+.ourprocessDetails:hover{
+  background: linear-gradient(to top,#024e46,#054946);
+
+}
+.processListDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
+.AboutProcessHead {
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+.AboutProcesspara {
+  color: var(--CeladonSorbet);
+  height: 4.5rem;
+  width: 90%;
+  font-size: 0.9rem;
+  /* border: 1px solid; */
+}
+.ProcessIcon {
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #023633, #089089);
+  color: var(--CeladonSorbet);
+  border-radius: 100%;
+  border: 1px solid;
+  font-size: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

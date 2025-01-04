@@ -1,0 +1,73 @@
+.HomeServices-container {
+  width: 100%;
+  min-height: 60vh;
+  color: var(--CeladonSorbet);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+.HomeServices-container .hssideHead {
+  text-transform: capitalize;
+  text-align: center;
+}
+.HSserviceHead-Wrapper {
+  display: flex;
+}
+.Hsexplorehead {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--white);
+}
+.hscard {
+  /* width: 16rem;
+  height: 16rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #07706a, #055551);
+  border-radius: 10px;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+.hscard:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #04ac9c, #089089);
+}
+.hsserviceList-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.hscardImg {
+  width: 15rem;
+  height: 10.5rem;
+  border-radius: 10px;
+}
+.hscardName {
+  font-size: 1.2rem;
+}
+.btnmobile {
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    
+}
+@media (max-width: 768px) {
+  
+  .btnlarger {
+    display: none;
+  }
+  .HSserviceHead-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,12 @@
+.hmAccordion-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+.hmAccordion-container h1{
+    color:#b4dcc4 ;
+    text-align: center;
+}
