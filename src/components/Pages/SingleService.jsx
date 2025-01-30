@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import "./SingleService.css";
 import { singleServiceList } from "../../utils/SingleService";
 import { useParams } from "react-router-dom";
+import { HomeContact } from "../Layout/HomeContact";
 
 const SingleService = () => {
   const { id } = useParams();
@@ -55,6 +56,7 @@ const SingleService = () => {
             </div>
           ))}
       </div>
+      <HomeContact/>
     </Layout>
   );
 };

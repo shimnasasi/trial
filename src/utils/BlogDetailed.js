@@ -65,6 +65,7 @@ import FacilitatesScalability from "../assets/blogs/Minimalist/FacilitatesScalab
 export const wholeBlogData = [
   {
     blogId: 0,
+    blogDate:"08-08-2024",
     blogName: "Top 5 Design Trends to Elevate Your Brand in 2024",
     blogPara:
       "As the digital landscape evolves, staying updated with the latest design trends is crucial for businesses to stay relevant and resonate with their audiences. In 2024, design is all about blending creativity with functionality, ensuring brands stand out while delivering value. Here are the top five design trends that can take your branding and marketing efforts to the next level.",
@@ -157,7 +158,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 1,
+    blogId: 1,blogDate:"08-08-2024",
     blogName: "How to Create an Engaging Social Media Strategy",
     blogPara:
       "In today's digital-first world, social media is essential for businesses to connect with their audience, build brand awareness, and drive growth. However, achieving success requires more than just posting regularly. You need a well-thought-out strategy that engages your audience and aligns with your business goals. Here’s how to create a winning social media strategy in a few simple steps.",
@@ -299,7 +300,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 2,
+    blogId: 2,blogDate:"08-08-2024",
     blogName: "The Importance of Branding for Small Businesses",
     blogPara:
       " For small businesses, standing out in a competitive market can be challenging. That’s where branding becomes a game-changer. A strong brand isn’t just a logo or a catchy name—it’s the emotional connection your customers have with your business. Whether you’re a startup or a growing local business, investing in branding can significantly impact your success. Here’s why branding is essential for small businesses and how it helps you grow.",
@@ -373,7 +374,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 3,
+    blogId: 3,blogDate:"08-08-2024",
     blogName: "Why Every Business Needs a Professional Website",
     blogPara:
       "In the digital age, having a professional website is no longer optional—it’s essential for businesses of all sizes. Whether you're a local shop, a startup, or a growing company, your website acts as your online storefront, operating 24/7 to showcase your products or services and attract customers. Here's why investing in a professional website is crucial for your business success.",
@@ -473,7 +474,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 4,
+    blogId: 4,blogDate:"08-08-2024",
     blogName: "A Beginner’s Guide to SEO: Tips for Business Owners",
     blogPara:
       " Search Engine Optimization (SEO) is one of the most effective ways to improve your online visibility and attract potential customers. For business owners, understanding SEO might seem overwhelming at first, but it doesn’t have to be. This beginner’s guide will break down the basics of SEO and provide actionable tips to help your business rank higher on search engines like Google.",
@@ -617,7 +618,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 5,
+    blogId: 5,blogDate:"08-08-2024",
     blogName: "How Instagram Reels Can Boost Your Marketing Game",
     blogPara:
       "  Social media platforms evolve constantly, and Instagram Reels has emerged as a game-changer for businesses. This short-form video feature allows brands to create engaging, entertaining, and highly shareable content. Whether you're a small business or an established brand, Instagram Reels can take your marketing efforts to the next level. Here's how",
@@ -707,7 +708,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 6,
+    blogId: 6,blogDate:"08-08-2024",
     blogName: "Web Design Mistakes to Avoid in 2024",
     blogPara:
       "  Your website is often the first impression potential customers have of your business. In 2024, web design is more important than ever. A well-designed website builds trust, encourages engagement, and helps convert visitors into loyal customers. However, small design mistakes can hurt your website's performance and user experience. To help you avoid costly errors, here are the most common web design mistakes to steer clear of in 2024",
@@ -756,7 +757,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 7,
+    blogId: 7,blogDate:"08-08-2024",
     blogName: "The Power of Email Marketing in Building Customer Relationships",
     blogPara:
       "  In today’s digital landscape, email marketing remains one of the most effective tools for building strong, lasting relationships with your customers. With the right strategy, email marketing can help you connect with your audience on a deeper level, increase engagement, and boost sales. Whether you're a small business or a large corporation, harnessing the power of email marketing can be a game-changer for your brand. Here's how email marketing helps you build and maintain strong customer relationships",
@@ -830,7 +831,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 8,
+    blogId: 8,blogDate:"08-08-2024",
     blogName: " How to Choose the Right Marketing Agency for Your Business",
     blogPara:
       "  Selecting the right marketing agency is a critical decision for the success of your business. Whether you’re a startup or an established brand, a skilled marketing partner can help you reach new heights in growth and customer engagement. With countless agencies out there, choosing the one that aligns with your goals and vision can be overwhelming. Here’s a guide to help you choose the right marketing agency for your business",
@@ -930,7 +931,7 @@ export const wholeBlogData = [
     ]
   },
   {
-    blogId: 9,
+    blogId: 9,blogDate:"08-08-2024",
     blogName: " The Role of App Development in Business Growth",
     blogPara:
       "  In today’s fast-paced digital world, mobile applications have become essential for businesses looking to expand their reach, enhance customer engagement, and streamline operations. Whether you're a startup or an established enterprise, investing in app development can play a pivotal role in driving business growth. From improving user experience to opening new revenue streams, apps can significantly impact your brand’s success. Here’s how app development can fuel your business growth and why it’s a game-changer for modern companies.",

@@ -1,49 +1,11 @@
-import React, { useState } from "react";
+import React  from "react";
 import Layout from "../Layout/Layout";
 import "./Contact.css";
 import { FaAddressCard, FaEnvelope } from "react-icons/fa";
 import { MdPhoneInTalk } from "react-icons/md";
+import ContactForm from "../Layout/ContactForm";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    company: "",
-    email: "",
-    subject: "",
-    contactNumber: "",
-    message: ""
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Construct the message
-    const message = `Name: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nSubject: ${formData.subject}\nContact Number: ${formData.contactNumber}\nMessage: ${formData.message}`;
-
-    // Encode the message for URL
-    const encodedMessage = encodeURIComponent(message);
-
-    // WhatsApp API URL
-    // https://wa.me/+919562465095/?text
-    const whatsappUrl = `https://wa.me/+971542791548/?text=${encodedMessage}`;
-
-    // Redirect to WhatsApp
-    window.open(whatsappUrl, "_blank");
-
-    // Clear the form after sending
-    setFormData({
-      name: "",
-      company: "",
-      email: "",
-      subject: "",
-      contactNumber: "",
-      message: ""
-    });
-  };
 
   return (
     <Layout>
@@ -83,7 +45,8 @@ const Contact = () => {
               </span>
             </div>
           </div>
-          <div className="contact-details-container">
+          <ContactForm />
+          {/* <div className="contact-details-container">
             <form onSubmit={handleSubmit}>
               <h2>Get in Touch</h2>
               <div className="contactform-row">
@@ -143,7 +106,7 @@ const Contact = () => {
                 <span className="button-text">Send message</span>
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
         <iframe
           className="mapContact"

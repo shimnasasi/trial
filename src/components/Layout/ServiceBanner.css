@@ -31,9 +31,9 @@
   gap: 1rem;
   width: 50%;
   height: 60vh;
-  text-align: right;
+  /* text-align: right; */
   justify-content: center;
-  align-items: end;
+  /* align-items: end; */
   border-radius: 15px;
   /* padding-right: 2rem;  */
 }

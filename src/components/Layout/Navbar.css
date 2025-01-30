@@ -86,11 +86,11 @@
 }
 .listLarger a {
   /* border: 1px solid; */
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5rem;
+  width: 4.5rem;
   border-radius: 30px;
 }
 .listLarger a:hover {

@@ -32,6 +32,9 @@ const Navbar = () => {
           <Link to={"/blog"} className="navMainIcon">
             <li className="item">Blogs</li>
           </Link>
+          <Link to={"/faq"} className="navMainIcon">
+            <li className="item">Faq</li>
+          </Link>
           <Link to={"/contact"} className="navMainIcon">
             <li className="item">Contact us</li>
           </Link>
@@ -69,6 +72,9 @@ const Navbar = () => {
         </Link>{" "}
         <Link to={"/blog"}>
           <div className="item">Blogs</div>
+        </Link>
+        <Link to={"/faq"}>
+          <div className="item">Faq</div>
         </Link>
         <Link to={"/contact"}>
           <div className="item">Contact </div>

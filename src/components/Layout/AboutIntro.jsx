@@ -9,22 +9,24 @@ const AboutIntro = () => {
       <span className="Head">Get to Know Us</span>
       <div className="aboutIntroWrap">
         <img src={imageintro} alt="" className="imageintro" />
-        
+
         <div className="wrapDetails">
-          <span className="OtherHeads">Who We Are</span>
+          <span className="OtherHeads">Our Vision</span>
           <span className="abIntroPara">
-            Dimark Marketing Management is a full-service digital marketing and
-            design agency based in Dubai, committed to helping brands thrive
-            online. Our team of creatives and marketing experts works closely
-            with businesses of all sizes to create customized solutions that
-            deliver measurable growth.
+            Our vision is to transform the marketing landscape by promoting
+            ethical practices, sustainability, and social responsibility. We aim
+            to empower businesses to drive positive change through innovative
+            marketing strategies that prioritize the long-term well-being of
+            both society and the environment.
           </span>
-          <span className="OtherHeads">Our mission is simple</span>
+          <span className="OtherHeads">Our Mission</span>
           <span className="abIntroPara">
-            To be a reliable, results-driven partner that goes the extra mile
-            for our clients. Through our wide range of design, marketing, and
-            branding services, we make it our goal to elevate your brand,
-            enhance customer engagement, and drive sustainable growth.
+            Our mission is to create marketing strategies that prioritize
+            transparency, integrity, and impact. We believe in crafting
+            campaigns that foster genuine connections with audiences, while
+            contributing to sustainable business growth and social good. By
+            partnering with like-minded organizations, we aim to reshape the
+            marketing industry and make it a tool for positive societal change.
           </span>
           <Link to={"/contact"}>
             <button className="learn-more">

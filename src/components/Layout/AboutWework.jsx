@@ -10,8 +10,8 @@ const AboutWework = () => {
   return (
     <div className="AboutWework-container">
       <h1>
-        Here`s
-        <span className="whitestyle"> How it Works</span>
+        Our
+        <span className="whitestyle"> Core Values</span>
       </h1>
       <div className="processListDetails">
         {ourprocessList.map((list) => (

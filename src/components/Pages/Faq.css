@@ -1,0 +1,43 @@
+.faqPageTop {
+  width: 100%;
+  min-height: 60vh;
+  background: linear-gradient(to bottom, #010005, #045854);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.faqPageTop h1 {
+  /* .gradient-text { */
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #fdfcfd,
+    #04ac9c,
+    #7ad4cc,
+    #00a99d,
+    #fdfcfd
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 4s infinite linear;
+  /* } */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.faqwrapper {
+  background: linear-gradient(to bottom, #045854, #010005);
+}

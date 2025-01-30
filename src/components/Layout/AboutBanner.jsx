@@ -12,7 +12,7 @@ const AboutBanner = () => {
         <BsStars className="ramingtopIcon"/>
       </div>
       <div className="aboutBanner-wrapper">
-        <span className="smallHeading">About Us</span>
+        {/* <span className="smallHeading">About Us</span> */}
         <span className="aboutHead">
           Your Partner in Innovative Design, Marketing and Branding
         </span>

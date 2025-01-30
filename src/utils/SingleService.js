@@ -20,7 +20,6 @@ import design from "../assets/singleService/desiging.jpg";
 import marketing from "../assets/singleService/marketing.jpg";
 import branding from "../assets/singleService/branding.jpg";
 
-
 export const singleServiceList = [
   {
     id: 1,
@@ -36,14 +35,14 @@ export const singleServiceList = [
         desc: "Custom, responsive websites that provide an exceptional user experience and drive conversions"
       },
       {
-        name: "Mobile Application Development",
+        name: "Mobile Application ",
         image: image2,
         desc: "User-friendly apps that engage and retain your audience"
       },
       {
-        name: "Logo Design",
+        name: "Graphic Design",
         image: image3,
-        desc: "Unique logos that encapsulate your brand’s essence and values"
+        desc: " Logo Design, Package Designs, Illustrations & Branding materials"
       },
       {
         name: "Business Cards & Stationery",
@@ -59,12 +58,22 @@ export const singleServiceList = [
         name: "Corporate Gifts",
         image: image6,
         desc: "Personalized branded gifts that create lasting impressions"
+      },
+      {
+        name: "UI/UX Designs",
+        image: image5,
+        desc: "Crafting user centered design for exceptional visually appealing digital experiences. "
+      },
+      {
+        name: "Corporate PPT ",
+        image: image6,
+        desc: "Creating professional PowerPoint presentations that effectively communicate your message, Enhance your brand and drive impactful results."
       }
     ]
   },
   {
     id: 2,
-    serviceImg:marketing,
+    serviceImg: marketing,
     ServiceName: "Marketing Services",
     ServiceSubText: "Strategies That Drive Engagement and Growth",
     serviceDesc:
@@ -134,6 +143,11 @@ export const singleServiceList = [
         name: "Consistent Visual Branding",
         image: image17,
         desc: "Maintain a cohesive visual identity across all platforms"
+      },
+      {
+        name: "Brand Rebranding",
+        image: image17,
+        desc: "revitalizing a brand's image, identity, and positioning to improve market relevance and achieve business goals. "
       }
     ]
   }

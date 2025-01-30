@@ -6,7 +6,7 @@ import { faqList } from "../../utils/faq";
 const HomeAccordion = () => {
   return (
     <div className="hmAccordion-container">
-      <h1>Frequently Asked Questions</h1>
+      {/* <h1>Frequently Asked Questions</h1>  */}
       <Accordion items={faqList} />
     </div>
   );
