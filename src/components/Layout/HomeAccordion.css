@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 2.5rem 0;
+  gap: 2rem;
 }
 .hmAccordion-container h1{
     color:#b4dcc4 ;

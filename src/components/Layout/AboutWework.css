@@ -36,7 +36,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 5rem;
 }
 .AboutProcessHead {
   color: var(--white);
@@ -67,5 +67,9 @@
   .ourprocessDetails {
     width: 16.5rem;
     height: 14rem;
+  }
+  .processListDetails
+  {
+    gap: 3rem;
   }
 }
